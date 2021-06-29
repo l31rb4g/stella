@@ -5,14 +5,15 @@ body {
   padding: 0;
   background: #F2F2F2;
   font-family: Arial;
+  padding-bottom: 200px;
 
   background-image: url("../img/home_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center 520px;
+  background-position: center 550px;
 }
 
-main { width: 1200px; margin: auto; }
+main { width: calc(100% - 100px); max-width: 1200px; margin: auto; }
 
 header { display: flex; }
 
@@ -84,7 +85,7 @@ a.button:hover {
 #page_home section.banner aside {
   position: absolute;
   right: 0;
-  margin-top: 15px;
+  margin-top: 20px;
   width: 520px;
   height: 580px;
   background-image: url("../img/home_banner.png");
@@ -93,4 +94,41 @@ a.button:hover {
 
 #page_home section.content {
   padding-top: 100px;
+  display: flex;
+  margin-top: 70px;
 }
+
+#page_home section.content > .left {
+  padding: 0 150px 0 0px;
+}
+#page_home section.content h2 {
+  width: 300px;
+  color: #595959;
+  font-weight: 400;
+  font-size: 26px;
+}
+#page_home section.content .box_info {
+  display: flex;
+}
+#page_home section.content .box_info .left {
+  margin-right: 1px solid #009A44;
+}
+#page_home section.content .box_info strong {
+  color: #009A44;
+}
+#page_home section.content .box_info p {
+  height: 60px;
+  width: 300px;
+  color: #595959;
+  font-size: 14px;
+}
+
+#page_home section.content .right {
+  flex-grow: 1;
+}
+
+#page_home section.content img {
+  cursor: pointer;
+  margin-top: 80px;
+}
+
