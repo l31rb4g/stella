@@ -70,6 +70,7 @@ header nav a:hover { text-decoration: underline; }
   font-size: 2em;
   margin: 6px 0;
   letter-spacing: 0.08em;
+  font-family: 'Raleway', sans-serif;
 }
 #page_home section.banner small {
   display: block;
