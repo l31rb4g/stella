@@ -18,9 +18,9 @@ main { margin: auto; }
 
 header { display: flex; margin-top: 3em; }
 
-header img { margin-top: 20px; }
+header img { }
 
-header nav { flex-grow: 1; padding-top: 2em; text-align: right; padding-right: 5em; }
+header nav { flex-grow: 1; text-align: right; padding-right: 5em; align-self: center; }
 
 header nav a {
   color: #F07518;
@@ -163,6 +163,32 @@ section.duvida p {
   font-weight: 600;
 }
 
+
+/* MEDIA QUERY */
+@media (max-width: 1760px) {
+  body { font-size: 15px; }
+}
+@media (max-width: 1660px) {
+  body { font-size: 14px; }
+}
+@media (max-width: 1570px) {
+  body { font-size: 13px; }
+}
+@media (max-width: 1470px) {
+  body { font-size: 12px; }
+}
+@media (max-width: 1370px) {
+  body { font-size: 11px; }
+}
+@media (max-width: 1270px) {
+  body { font-size: 10px; }
+}
+@media (max-width: 1180px) {
+  body { font-size: 9px; }
+}
+@media (max-width: 1080px) {
+  body { font-size: 8px; }
+}
 
 
 /* UTILS */
