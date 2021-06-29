@@ -108,28 +108,33 @@ header nav a:hover { text-decoration: underline; }
   display: flex;
 }
 #page_home section.content .box_info .left {
-  margin-right: 1px solid #C7E7DB;
-  border-right: 1px solid #C7E7DB;
+  width: 60%;
+  border-right: 2px solid #C7E7DB;
 }
-#page_home section.content .box_info strong {
+#page_home section.content .box_info label {
+  display: block;
   color: #009A44;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 1em;
 }
 #page_home section.content .box_info p {
-  height: 60px;
-  width: 300px;
+  height: 10em;
+  width: 18em;
   color: #595959;
-  font-size: 14px;
+  font-size: 1em;
+  line-height: 2em;
 }
 
 #page_home section.content .right {
   flex-grow: 1;
-  margin-left: 30px;
+  margin-left: 4em;
 }
 
 #page_home section.content img {
   cursor: pointer;
   margin-top: 16em;
-  width: 40em;
+  width: 42em;
 }
 
 
@@ -138,20 +143,21 @@ section.duvida {
   background: #fff;
   margin-top: 100px;
   border-radius: 50px 50px 0 0;
-  padding: 50px 100px;
+  padding: 4em 10em;
 }
 section.duvida > div {
   align-self: center;
 }
 section.duvida h2 {
   color: #009A44;
-  font-size: 28px;
+  font-size: 4em;
   margin-right: 200px;
   margin-bottom: 10px;
 }
 section.duvida p {
   color: #595959;
-  font-size: 14px;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 
