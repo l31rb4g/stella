@@ -9,7 +9,7 @@ body {
   background-image: url("../img/home_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px 500px;
+  background-position: center 520px;
 }
 
 main { width: 900px; margin: auto; }
@@ -89,4 +89,8 @@ a.button:hover {
   height: 580px;
   background-image: url("../img/home_banner.png");
   background-size: cover;
+}
+
+#page_home section.content {
+  padding-top: 100px;
 }
