@@ -90,9 +90,8 @@ header nav a:hover { text-decoration: underline; }
 }
 
 #page_home section.content {
-  padding-top: 100px;
   display: flex;
-  margin-top: 70px;
+  margin-top: 20em;
 }
 
 #page_home section.content > .left {
@@ -101,7 +100,7 @@ header nav a:hover { text-decoration: underline; }
 
 #page_home section.content > .left img {
   cursor: pointer;
-  margin-top: 16em;
+  margin-top: 10em;
   width: 42em;
 }
 
